@@ -66,7 +66,7 @@ def main():
             balance = withdraw(balance)
         elif greeting in [4, '4', '4.0', 'four', 'quit', 'exit', 'end']:
             write_balance(balance)
-            print('~~~~Thank you for choosing Generic Banking Inc.~~~\n Bring us more money next time... OR ELSE\n Goodbye ^v^')
+            print('~~~~~~~~~~~~~~~~~~~Thank you for choosing Generic Banking Inc.~~~~~~~~~~~~~~~~~~\n                    Bring us more money next time... OR ELSE\n                                   Goodbye ^v^')
             break
         else:
             print('Invalid input, please select an option from the menu.')
